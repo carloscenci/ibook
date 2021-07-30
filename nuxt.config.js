@@ -3,15 +3,15 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - ibook',
+    titleTemplate: 'Iibook',
     title: 'ibook',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'pt-BR'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Uma nova maneira de ler livros online!' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -21,6 +21,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    'normalize.css/normalize.css',
+    '@/assets/scss/base.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -42,7 +44,12 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/style-resources'
   ],
+
+  styleResources: {
+    scss: ['@/components/bosons/*.scss'],
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
