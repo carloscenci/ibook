@@ -3,8 +3,8 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: 'Iibook',
-    title: 'ibook',
+    titleTemplate: 'iBook',
+    title: 'iBook',
     htmlAttrs: {
       lang: 'pt-BR'
     },
@@ -30,7 +30,9 @@ export default {
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  components: [
+    {path: '@/components', pathPrefix: false}
+  ],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
