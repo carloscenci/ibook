@@ -8,8 +8,14 @@
                 <li class="item">
                     <NuxtLink to="/">Home</NuxtLink>
                 </li>
+                 <li class="item">
+                    <NuxtLink to="/dashboard">Dashboard</NuxtLink>
+                </li>
                 <li class="item">
                     <NuxtLink to="/about">Sobre</NuxtLink>
+                </li>
+                <li class="item">
+                    <NuxtLink to="/login">Login</NuxtLink>
                 </li>
             </ul>
         </nav>
@@ -23,14 +29,14 @@
   nav {
     box-shadow: -1px 8px 26px 5px rgba(0, 0, 0, 0.12);
     background: color(dark, darkest);
-    width: 308px;
+    width: 500px;
     height: 50px;
     padding: 0 10px;
     border-radius: 35px;
     align-items: center;
     .items {
       display: grid;
-      grid-template-columns: repeat(3, auto);
+      grid-template-columns: repeat(5, auto);
       align-items: center;
       justify-content: space-around;
       height: 100%;

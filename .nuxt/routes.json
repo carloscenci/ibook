@@ -1,0 +1,51 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/home/carlos/Documentos/Cataline/bootcamp/Nuxt/ibook/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_64781211"
+  },
+  {
+    "name": "dashboard",
+    "path": "/dashboard",
+    "component": "/home/carlos/Documentos/Cataline/bootcamp/Nuxt/ibook/pages/dashboard.vue",
+    "chunkName": "pages/dashboard",
+    "_name": "_a3bc30d0"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/home/carlos/Documentos/Cataline/bootcamp/Nuxt/ibook/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_4dd78fed"
+  },
+  {
+    "name": "book-id",
+    "path": "/book/:id",
+    "component": "/home/carlos/Documentos/Cataline/bootcamp/Nuxt/ibook/pages/book/_id/index.vue",
+    "chunkName": "pages/book/_id/index",
+    "_name": "_b138ca7a"
+  },
+  {
+    "name": "category-name",
+    "path": "/category/:name?",
+    "component": "/home/carlos/Documentos/Cataline/bootcamp/Nuxt/ibook/pages/category/_name.vue",
+    "chunkName": "pages/category/_name",
+    "_name": "_815ba776"
+  },
+  {
+    "name": "book-id-read",
+    "path": "/book/:id?/read",
+    "component": "/home/carlos/Documentos/Cataline/bootcamp/Nuxt/ibook/pages/book/_id/read.vue",
+    "chunkName": "pages/book/_id/read",
+    "_name": "_17942c96"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/carlos/Documentos/Cataline/bootcamp/Nuxt/ibook/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_f7a02654"
+  }
+]
