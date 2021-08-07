@@ -7,6 +7,6 @@
 import Vue from 'vue'
 export default Vue.extend({
   layout: 'ibook',
-  // middleware: 'auth'
+  middleware: 'auth'
 })
 </script>
